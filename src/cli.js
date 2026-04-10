@@ -6,3 +6,4 @@ const userGreeting = () => {
 }
 
 export default userGreeting;
+

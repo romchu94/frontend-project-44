@@ -23,5 +23,10 @@
   "dependencies": {
     "lodash": "^4.17.23",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0"
   }
 }
