@@ -11,3 +11,6 @@
 
 ### Game Greatest Common Divisor
 [![asciicast](https://asciinema.org/a/F1ibKgSFHYHtEJGa.svg)](https://asciinema.org/a/F1ibKgSFHYHtEJGa)
+
+### Game Arithmetic progression
+[![asciicast](https://asciinema.org/a/fVjFTUkW99hmC7nT.svg)](https://asciinema.org/a/fVjFTUkW99hmC7nT)
