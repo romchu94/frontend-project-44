@@ -14,3 +14,6 @@
 
 ### Game Arithmetic progression
 [![asciicast](https://asciinema.org/a/fVjFTUkW99hmC7nT.svg)](https://asciinema.org/a/fVjFTUkW99hmC7nT)
+
+### Game Prime Numbers
+[![asciicast](https://asciinema.org/a/4hjvyeMrnFFwjCQ6.svg)](https://asciinema.org/a/4hjvyeMrnFFwjCQ6)
