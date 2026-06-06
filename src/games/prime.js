@@ -1,9 +1,10 @@
+import getRandomNumber from "../utils.js";
 import runGame from "../index.js";
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 const getRoundData = () => {
-    const number = Math.floor(Math.random() * 100) + 1
+    const number = getRandomNumber()
     const question = String(number)
     const correctAnswer = isPrime(number) ? 'yes' : 'no'
     return [question, correctAnswer]

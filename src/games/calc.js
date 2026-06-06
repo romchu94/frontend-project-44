@@ -1,14 +1,14 @@
-import readlineSync from "readline-sync";
+import getRandomNumber from "../utils.js";
 import runGame from "../index.js";
 
 
 const description = 'What is the result of the expression?'
 
 const getRoundData = () => {
-    const number1 = Math.floor(Math.random() * 100)
-    const number2 = Math.floor(Math.random() * 100)
+    const number1 = getRandomNumber()
+    const number2 = getRandomNumber()
     const operators = ['+', '-', '*']
-    const randomIndex = Math.floor(Math.random() * operators.length)
+    const randomIndex = getRandomNumber(0, operators.length - 1)
     const randomOperator = operators[randomIndex]
     const question = `${number1} ${randomOperator} ${number2}`
 
@@ -27,7 +27,7 @@ const getRoundData = () => {
             throw new Error(`Unknown operator: ${randomOperator}`);
     }
 
-    return [question,String(result)]
+    return [question, String(result)]
 }
 
-export default () => runGame(description,getRoundData)
+export default () => runGame(description, getRoundData)
