@@ -8,7 +8,9 @@ const runGame = (description, getRoundData) => {
 
     console.log(description)
 
-    for (let i = 0; i < 3; i++) {
+    const numberOfRounds = 3
+
+    for (let i = 0; i < numberOfRounds; i++) {
         const [question, correctAnswer] = getRoundData()
         console.log(`Question: ${question}`)
         const userAnswer = readlineSync.question(`Your answer: `)
